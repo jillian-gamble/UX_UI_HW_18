@@ -2,3 +2,75 @@ div{
     display: flex;
     width: 33%;
 }
+.flexContainer{
+    display:grid;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.grid-container1{
+    display:grid;
+    grid-template-areas: 'myArea myArea';
+    grid-template-rows: 30px 30px;
+    grid-template-columns: 1/2 2/2;
+}
+
+.grid-container2{
+    display:grid
+    grid-template-areas: 'myArea myArea';
+    grid-template-rows: 100px 100px;
+    grid-template-columns; 1/2 2/2;
+}
+
+.projects{
+    grid-area: myArea;
+}
+
+.buttons{
+    display:grid;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 165px;
+    margin-right: 300px;
+}
+.inline-block{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+nav{
+    width: 73%;
+    padding: 1%;
+}
+ul{
+    width: 50%;
+    margin-left: auto;
+}
+footer{
+    background-color: #FFE3DC;
+    ul {text-align: center;}
+    li {text-align: center;}
+
+    ul{
+        display: inline-block;
+        vertical-align: top;
+        li {text-align: center;}
+    }
+}
+body{
+    background-color: #FEF1ED;
+}
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
